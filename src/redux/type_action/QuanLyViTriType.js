@@ -1,0 +1,2 @@
+export const SET_DANH_SACH_VI_TRI = "SET_DANH_SACH_VI_TRI";
+export const SET_THONG_TIN_VI_TRI = "SET_THONG_TIN_VI_TRI";
