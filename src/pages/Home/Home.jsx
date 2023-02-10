@@ -23,7 +23,7 @@ export default function Home(props) {
         document.documentElement.scrollHeight - 500
       ) {
         setLoading(true);
-        setList(list + 200);
+        setList(list + 8);
         if (arrListRoomSlice.length === arrRoom.length) {
           console.log("arrListRoomSlice.length", arrListRoomSlice.length);
           console.log("arrListRoom.length", arrRoom.length);
