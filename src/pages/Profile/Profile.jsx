@@ -33,9 +33,9 @@ export default function Profile(props) {
   const dispatch = useDispatch();
   // let ids = props.match.params;
   console.log("userLogin", userLogin);
+  // Lấy thông tin param từ url
   let { id } = props.match.params;
   useEffect(() => {
-    // Lấy thông tin param từ url
 
     console.log("id", id);
     const action = layThongTinChiTietNguoiDungAction(id);
